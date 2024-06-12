@@ -1,1 +1,49 @@
+STEP1:
+To install Hadoop, First you should have Java version 1.8 in
+your system. 
+STEP 2: 
+Check your java version in this command on command prompt
+javac –version
+
+STEP3: 
+If java is not installed in your system
+STEP4:
+Download the file according to your operating system. Keep the java folderdirectly under the
+
+local disk directory
+
+(D:\Java\jdk1.8.0_241\bin)
+
+STEP5:
+After downloading java version 1.8, download hadoop version 3.1
+
+Hadoop Link:
+
 https://archive.apache.org/dist/hadoop/common/hadoop- 3.3.0/hadoop-3.3.0.tar.gz
+
+STEP6:
+Extract it to a folder
+
+SETUP SYSTEM ENVIRONMENT VARIABLES
+
+STEP7: 
+Open control panel to edit the system environment variable
+
+STEP8: 
+Go to environment variable in system properties
+
+STEP9: 
+Create a new user variable. Put the Variable name as HADOOP_HOME and
+
+Variable value as the path of the bin folder where you extracted hadoop
+step 10:
+create a new user variable with variable name as JAVA_HOME and
+
+variable value as the path of the bin folder in the Java directory.
+
+STEP11:
+Now we need to set Hadoop bin directory and Java bin directory path
+
+in system variable path.
+STEP12:
+Edit Path in system variable
